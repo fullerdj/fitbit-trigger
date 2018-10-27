@@ -1,0 +1,34 @@
+<svg>
+  <symbol id="tile-trigger" focusable="false" > 
+    <rect id="trigger-background" height="100%" />
+    <text id="trigger-title" font-size="40" x="5" y="40" fill="white">Name</text>
+    <text id="result" x="5" y="60" font-size="20" fill="white">Sample Text</text>
+    <!-- <rect id="tile-divider-bottom" height="2" /> -->
+  </symbol>
+
+  <textarea id="status" class="status"></textarea>
+
+  <use id="triggerList" href="#tile-list" height="100%" width="100%">
+    <var id="reorder-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2"/>
+
+    <use id="trigger-0" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+    <use id="trigger-1" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+    <use id="trigger-2" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+    <use id="trigger-3" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+    <use id="trigger-4" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+    <use id="trigger-5" href="#tile-list-item" class="item" pointer-events="visible">
+      <use href="#tile-trigger" />
+    </use>
+  </use>
+</svg>
